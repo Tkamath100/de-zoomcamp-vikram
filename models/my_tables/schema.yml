@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: my_tables            # logical name (you choose)
+    database: atomic-arbor-464018-q6 # your GCP project
+    schema: mydataset12345
+        # BigQuery dataset
+    tables:
+      - name: Customers       # existing table in BigQuery
+      - name: Orders
