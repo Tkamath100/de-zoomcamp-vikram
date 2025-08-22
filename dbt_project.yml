@@ -41,4 +41,4 @@ models:
     example:
       +materialized: table
     my_tables:
-      +materialized: view
+      +materialized: table
