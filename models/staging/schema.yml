@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: trip_data
+    database: atomic-arbor-464018-q6
+    schema: dbt_vikram
+    tables:
+      - name: Green_trip
+      - name: Yellow_trip

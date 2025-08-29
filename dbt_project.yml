@@ -42,3 +42,5 @@ models:
       +materialized: table
     my_tables:
       +materialized: table
+    staging:
+      +materialized: view
